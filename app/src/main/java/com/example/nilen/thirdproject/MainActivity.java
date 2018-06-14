@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    int addTwoNumber(int i , int j) {
+    int addTwoNumber(int i , int j , int k) {
 
-        int sum = i + j;
+        int sum = i + j+k;
         return  sum;
     }
 }
